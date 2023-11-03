@@ -1,0 +1,9 @@
+module MUX(
+	input select,
+	input [7:0] IU, AU,
+	output [7:0] OU
+);
+
+	assign out = sel[0] ? AU : IU;
+	
+endmodule 

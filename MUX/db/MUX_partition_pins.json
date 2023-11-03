@@ -1,0 +1,109 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "OU[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OU[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OU[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OU[3]",
+					"strict" : false
+				},
+				{
+					"name" : "OU[4]",
+					"strict" : false
+				},
+				{
+					"name" : "OU[5]",
+					"strict" : false
+				},
+				{
+					"name" : "OU[6]",
+					"strict" : false
+				},
+				{
+					"name" : "OU[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AU[0]",
+					"strict" : false
+				},
+				{
+					"name" : "IU[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sel[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AU[1]",
+					"strict" : false
+				},
+				{
+					"name" : "IU[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AU[2]",
+					"strict" : false
+				},
+				{
+					"name" : "IU[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AU[3]",
+					"strict" : false
+				},
+				{
+					"name" : "IU[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AU[4]",
+					"strict" : false
+				},
+				{
+					"name" : "IU[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AU[5]",
+					"strict" : false
+				},
+				{
+					"name" : "IU[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AU[6]",
+					"strict" : false
+				},
+				{
+					"name" : "IU[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AU[7]",
+					"strict" : false
+				},
+				{
+					"name" : "IU[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
