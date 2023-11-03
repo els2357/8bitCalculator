@@ -1,0 +1,198 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "11/30/2022 10:53:41"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          CU
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module CU_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg ADDSUB;
+reg CLOCK;
+reg ENTER;
+reg RESET;
+reg [3:0] ROW;
+reg [7:0] test;
+// wires                                               
+wire [7:0] AUA;
+wire [7:0] AUB;
+wire [7:0] BSM;
+wire [3:0] COL;
+wire COUT;
+wire ENTEROUT;
+wire [6:0] HEXHUNDREDS;
+wire [6:0] HEXONES;
+wire [6:0] HEXSIGN;
+wire [6:0] HEXTENS;
+wire [7:0] IU;
+wire LOADA;
+wire LOADB;
+wire LOADR;
+wire [7:0] OU;
+wire [15:0] OUT;
+wire OVR;
+wire [7:0] RESULT;
+wire [7:0] SUM;
+wire TRIG;
+wire VALID;
+wire [3:0] VALUE;
+wire [6:0] hexfill1;
+wire [6:0] hexfill2;
+wire [6:0] hexfill3;
+wire [6:0] hexfill4;
+wire [6:0] hexfill5;
+wire [6:0] hexfill6;
+wire [1:0] nextstate;
+wire select;
+wire [1:0] state;
+
+// assign statements (if any)                          
+CU i1 (
+// port map - connection between master ports and signals/registers   
+	.ADDSUB(ADDSUB),
+	.AUA(AUA),
+	.AUB(AUB),
+	.BSM(BSM),
+	.CLOCK(CLOCK),
+	.COL(COL),
+	.COUT(COUT),
+	.ENTER(ENTER),
+	.ENTEROUT(ENTEROUT),
+	.HEXHUNDREDS(HEXHUNDREDS),
+	.HEXONES(HEXONES),
+	.HEXSIGN(HEXSIGN),
+	.HEXTENS(HEXTENS),
+	.IU(IU),
+	.LOADA(LOADA),
+	.LOADB(LOADB),
+	.LOADR(LOADR),
+	.OU(OU),
+	.OUT(OUT),
+	.OVR(OVR),
+	.RESET(RESET),
+	.RESULT(RESULT),
+	.ROW(ROW),
+	.SUM(SUM),
+	.TRIG(TRIG),
+	.VALID(VALID),
+	.VALUE(VALUE),
+	.hexfill1(hexfill1),
+	.hexfill2(hexfill2),
+	.hexfill3(hexfill3),
+	.hexfill4(hexfill4),
+	.hexfill5(hexfill5),
+	.hexfill6(hexfill6),
+	.nextstate(nextstate),
+	.select(select),
+	.state(state),
+	.test(test)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// CLOCK
+always
+begin
+	CLOCK = 1'b0;
+	CLOCK = #10000 1'b1;
+	#10000;
+end 
+
+// ADDSUB
+initial
+begin
+	ADDSUB = 1'b0;
+end 
+
+// RESET
+initial
+begin
+	RESET = 1'b1;
+	RESET = #10000 1'b0;
+	RESET = #20000 1'b1;
+	RESET = #470000 1'b0;
+	RESET = #30000 1'b1;
+end 
+
+// ENTER
+initial
+begin
+	ENTER = 1'b1;
+	ENTER = #50000 1'b0;
+	ENTER = #50000 1'b1;
+	ENTER = #30000 1'b0;
+	ENTER = #70000 1'b1;
+	ENTER = #50000 1'b0;
+	ENTER = #40000 1'b1;
+end 
+// test[ 7 ]
+initial
+begin
+	test[7] = 1'b0;
+end 
+// test[ 6 ]
+initial
+begin
+	test[6] = 1'b0;
+end 
+// test[ 5 ]
+initial
+begin
+	test[5] = 1'b0;
+end 
+// test[ 4 ]
+initial
+begin
+	test[4] = 1'b0;
+end 
+// test[ 3 ]
+initial
+begin
+	test[3] = 1'b0;
+end 
+// test[ 2 ]
+initial
+begin
+	test[2] = 1'b0;
+end 
+// test[ 1 ]
+initial
+begin
+	test[1] = 1'b0;
+	test[1] = #120000 1'b1;
+	test[1] = #760000 1'b0;
+end 
+// test[ 0 ]
+initial
+begin
+	test[0] = 1'b0;
+	test[0] = #30000 1'b1;
+	test[0] = #90000 1'b0;
+end 
+endmodule
+

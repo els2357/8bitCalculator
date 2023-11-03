@@ -1,0 +1,76 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/MyCSE2441Labs/Final_Project/CU/simulation/qsim
+vCU
+!s110 1669827223
+!i10b 1
+!s100 ;dY24QkSJWM]8Tl;:_dZF1
+IEe_3fib]c`B94Hg[K74j>2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/MyCSE2441Labs/Final_Project/CU/simulation/qsim
+Z2 w1669827224
+Z3 8CU.vo
+Z4 FCU.vo
+L0 32
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1669827223.000000
+Z7 !s107 CU.vo|
+Z8 !s90 -work|work|CU.vo|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+n@c@u
+vCU_vlg_vec_tst
+Z11 !s110 1669827224
+!i10b 1
+!s100 JP=Y^XjS^]YnFD;OCTX`f1
+ICVWb3RcfFi1:3n0;ZiJD33
+R0
+R1
+w1669827222
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R5
+r1
+!s85 0
+31
+!s108 1669827224.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R9
+R10
+n@c@u_vlg_vec_tst
+vhard_block
+R11
+!i10b 1
+!s100 aM_SzPPX6S2FT_GQY8bF62
+IU2Ma>JLI4loTX^lF<D34Y3
+R0
+R1
+R2
+R3
+R4
+L0 10175
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
